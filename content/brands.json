@@ -1,0 +1,104 @@
+{
+  "brands": [
+    {
+      "name": "Bhagawati Enterprises",
+      "industry": "Trading & supplies",
+      "headline": "Trusted supplies, delivered on time.",
+      "website": "www.bhagawati.com",
+      "logo": "images/brands/bhagawati.png",
+      "logo_white": "images/brands/bhagawati-white.png",
+      "primary": "#3F69B0",
+      "dark": "#1E3566",
+      "accent": "#8FB0E6",
+      "tint": "#EDF2FB",
+      "mockups": [
+        "card",
+        "letter",
+        "envelope",
+        "sign",
+        "post",
+        "id"
+      ]
+    },
+    {
+      "name": "Sclinbio",
+      "industry": "Biotech & life sciences",
+      "headline": "Research you can trust.",
+      "website": "www.sclinbio.com",
+      "logo": "images/brands/sclinbio.png",
+      "logo_white": "images/brands/sclinbio-white.png",
+      "primary": "#187ADF",
+      "dark": "#0B3D75",
+      "accent": "#08DEFC",
+      "tint": "#E8F4FF",
+      "mockups": [
+        "card",
+        "letter",
+        "bottle",
+        "post",
+        "id",
+        "envelope"
+      ]
+    },
+    {
+      "name": "Chocoholik",
+      "industry": "Chocolate gifting",
+      "headline": "Handmade chocolate bouquets for every celebration.",
+      "website": "www.chocoholik.com",
+      "logo": "images/brands/chocoholik.png",
+      "logo_white": "images/brands/chocoholik-white.png",
+      "primary": "#7F5840",
+      "dark": "#3E2A1E",
+      "accent": "#C9A06A",
+      "tint": "#F7EFE6",
+      "mockups": [
+        "card",
+        "box",
+        "cup",
+        "bag",
+        "post",
+        "sign"
+      ]
+    },
+    {
+      "name": "The Property Shield",
+      "industry": "Real estate & property management",
+      "headline": "Your trusted property partner.",
+      "website": "www.propertyshield.com",
+      "logo": "images/brands/propertyshield.png",
+      "logo_white": "images/brands/propertyshield.png",
+      "primary": "#4A4948",
+      "dark": "#222121",
+      "accent": "#CF9F5E",
+      "tint": "#F8F2E9",
+      "mockups": [
+        "card",
+        "letter",
+        "sign",
+        "post",
+        "id",
+        "envelope"
+      ]
+    },
+    {
+      "name": "Anil Wellness Center",
+      "industry": "Sports & cricket coaching",
+      "headline": "Summer cricket camp. Enrol now.",
+      "website": "www.anilwellness.com",
+      "logo": "images/brands/anilwellness.png",
+      "logo_white": "images/brands/anilwellness.png",
+      "primary": "#22214C",
+      "dark": "#121130",
+      "accent": "#F19028",
+      "tint": "#FFF4E8",
+      "mockups": [
+        "tee",
+        "card",
+        "post",
+        "id",
+        "sign",
+        "bag"
+      ]
+    }
+  ]
+}

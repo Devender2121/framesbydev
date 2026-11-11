@@ -1,0 +1,420 @@
+{
+  "projects": [
+    {
+      "id": "health",
+      "group": "social",
+      "title": "Social Media Designs for Healthcare",
+      "client": "Sanjivi, Krishna, Vignata IVF, AHRAR",
+      "description": "Festival greetings, awareness days, treatment launches and carousel posts for hospitals and fertility clinics across Andhra Pradesh and Telangana.",
+      "tools": "Photoshop, Illustrator",
+      "year": "2023 – 2025",
+      "layout": "grid",
+      "fit": false,
+      "items": [
+        {
+          "title": "Robotic hip replacement",
+          "client": "Sanjivi Hospitals",
+          "image": "images/works/health-01.jpg"
+        },
+        {
+          "title": "Women's Day",
+          "client": "Sanjivi Hospitals",
+          "image": "images/works/health-02.jpg"
+        },
+        {
+          "title": "Rheumatoid Arthritis Day",
+          "client": "Sanjivi Hospitals",
+          "image": "images/works/health-03.jpg"
+        },
+        {
+          "title": "Maha Shivratri",
+          "client": "Vignata Fertility & IVF",
+          "image": "images/works/health-04.jpg"
+        },
+        {
+          "title": "World Hemophilia Day",
+          "client": "Vignata Fertility & IVF",
+          "image": "images/works/health-05.jpg"
+        },
+        {
+          "title": "First IVF consultation",
+          "client": "Vignata Fertility & IVF",
+          "image": "images/works/health-06.jpg"
+        },
+        {
+          "title": "Now open in Vijayawada",
+          "client": "Krishna Hospitals",
+          "image": "images/works/health-07.jpg"
+        },
+        {
+          "title": "Maha Shivratri",
+          "client": "Krishna Hospitals",
+          "image": "images/works/health-08.jpg"
+        },
+        {
+          "title": "World TB Day",
+          "client": "Krishna Hospitals",
+          "image": "images/works/health-09.jpg"
+        },
+        {
+          "title": "Thyroid Awareness Month",
+          "client": "Sanjivi Hospitals",
+          "image": "images/works/health-10.jpg"
+        },
+        {
+          "title": "Robotic knee replacement",
+          "client": "Sanjivi Hospitals",
+          "image": "images/works/health-11.jpg"
+        },
+        {
+          "title": "Cardiac sciences",
+          "client": "AHRAR Hospital",
+          "image": "images/works/health-12.jpg"
+        },
+        {
+          "title": "Maha Shivratri",
+          "client": "Vignata Fertility & IVF",
+          "image": "images/works/health-13.jpg"
+        },
+        {
+          "title": "Struggles of infertility",
+          "client": "Vignata Fertility & IVF",
+          "image": "images/works/health-14.jpg"
+        },
+        {
+          "title": "Monsoon flu carousel · 1",
+          "client": "AHRAR Hospital",
+          "image": "images/works/health-15.jpg"
+        },
+        {
+          "title": "Monsoon flu carousel · 2",
+          "client": "AHRAR Hospital",
+          "image": "images/works/health-16.jpg"
+        },
+        {
+          "title": "Monsoon flu carousel · 3",
+          "client": "AHRAR Hospital",
+          "image": "images/works/health-17.jpg"
+        }
+      ]
+    },
+    {
+      "id": "realestate",
+      "group": "social",
+      "title": "Social Media Designs for Real Estate",
+      "client": "Harihara Estates, Sri Sai Soukya, Ramachandra Brothers",
+      "description": "Launch posts, festival greetings and furniture offers for real-estate developers and a furniture showroom.",
+      "tools": "Photoshop",
+      "year": "2023 – 2024",
+      "layout": "grid",
+      "fit": false,
+      "items": [
+        {
+          "title": "Sofa cum bed",
+          "client": "Ramachandra Brothers",
+          "image": "images/works/realestate-01.jpg"
+        },
+        {
+          "title": "Living luxury",
+          "client": "Harihara · Sri Sai Soukya",
+          "image": "images/works/realestate-02.jpg"
+        },
+        {
+          "title": "Gandhi Jayanti",
+          "client": "Harihara Estates",
+          "image": "images/works/realestate-03.jpg"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "group": "social",
+      "title": "Social Media Designs for Education",
+      "client": "Acharya, Accurate Academy, Kiran School",
+      "description": "Admission campaigns, crash-course promotions and IIT-NEET foundation posts for colleges and schools.",
+      "tools": "Photoshop, Illustrator",
+      "year": "2022 – 2024",
+      "layout": "grid",
+      "fit": false,
+      "items": [
+        {
+          "title": "IIT-NEET foundation",
+          "client": "Accurate Academy",
+          "image": "images/works/education-01.jpg"
+        },
+        {
+          "title": "Summer bridge course",
+          "client": "Acharya",
+          "image": "images/works/education-02.jpg"
+        },
+        {
+          "title": "EAPCET crash course",
+          "client": "Acharya",
+          "image": "images/works/education-03.jpg"
+        },
+        {
+          "title": "Admissions open",
+          "client": "Kiran International School",
+          "image": "images/works/education-04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "auto",
+      "group": "social",
+      "title": "Automotive Campaigns",
+      "client": "Tata Motors, Toyota, Honda dealers",
+      "description": "Vehicle launches, carnival offers and Telugu newspaper ads for automobile dealerships.",
+      "tools": "Photoshop, InDesign",
+      "year": "2023 – 2024",
+      "layout": "grid",
+      "fit": false,
+      "items": [
+        {
+          "title": "Grand launch",
+          "client": "Borra Honda",
+          "image": "images/works/auto-01.jpg"
+        },
+        {
+          "title": "Mega Carnival",
+          "client": "Toyota · Borra Auto",
+          "image": "images/works/auto-02.jpg"
+        },
+        {
+          "title": "Tata Intra launch",
+          "client": "Jasper Industries · newspaper",
+          "image": "images/works/auto-03.jpg"
+        },
+        {
+          "title": "Tata Ace Gold & Petrol",
+          "client": "Dhanvi Motors · newspaper",
+          "image": "images/works/auto-04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "group": "social",
+      "title": "Food, Hospitality & Lifestyle",
+      "client": "Suruchi, hotel brunches, CWS One",
+      "description": "Sweet-shop product posts, hotel brunch promotions and co-working space creatives.",
+      "tools": "Photoshop",
+      "year": "2020 – 2023",
+      "layout": "grid",
+      "fit": false,
+      "items": [
+        {
+          "title": "Doctors' Brunch",
+          "client": "Hospitality",
+          "image": "images/works/food-01.jpg"
+        },
+        {
+          "title": "World Mental Health Day",
+          "client": "CWS One",
+          "image": "images/works/food-02.jpg"
+        },
+        {
+          "title": "Cashew Burfi",
+          "client": "Suruchi",
+          "image": "images/works/food-03.jpg"
+        },
+        {
+          "title": "Mysurpak",
+          "client": "Suruchi",
+          "image": "images/works/food-04.jpg"
+        },
+        {
+          "title": "Sunday immune boosters brunch",
+          "client": "Hospitality",
+          "image": "images/works/food-05.jpg"
+        },
+        {
+          "title": "Social-distance seating",
+          "client": "CWS One",
+          "image": "images/works/food-06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "logos",
+      "group": "brand",
+      "title": "LogoFolio",
+      "client": "Brand identities",
+      "description": "Five brand identities. Open a logo to see its colours, logo variations, stationery and marketing collateral.",
+      "tools": "Illustrator",
+      "year": "2019 – 2025",
+      "layout": "brands",
+      "fit": true,
+      "items": []
+    },
+    {
+      "id": "illus",
+      "group": "brand",
+      "title": "Illustration & Characters",
+      "client": "Creative Geek",
+      "description": "Character illustrations in a flat vector style. Each one spins in 360°. Drag or swipe to turn it.",
+      "tools": "Illustrator, Photoshop",
+      "year": "2021 – 2024",
+      "layout": "spin",
+      "fit": true,
+      "items": [
+        {
+          "title": "Bhanu",
+          "client": "Character",
+          "image": "images/works/illus-01.jpg"
+        },
+        {
+          "title": "Portrait study",
+          "client": "Creative Geek",
+          "image": "images/works/illus-02.jpg"
+        },
+        {
+          "title": "The Astrologer",
+          "client": "Creative Geek",
+          "image": "images/works/illus-03.jpg"
+        },
+        {
+          "title": "Girl in a cap",
+          "client": "Creative Geek",
+          "image": "images/works/illus-04.jpg"
+        }
+      ]
+    },
+    {
+      "id": "outdoor",
+      "group": "print",
+      "title": "Hoardings & Outdoor",
+      "client": "Sri Sai Soukya, Sanjivi, Ramachandra Brothers",
+      "description": "Large-format hoardings in Telugu and English for real-estate projects, hospitals and retail showrooms, shown on roadside hoarding mockups. Open one and tap Original to see the flat artwork.",
+      "tools": "Photoshop, CorelDRAW",
+      "year": "2023 – 2025",
+      "layout": "grid",
+      "fit": false,
+      "items": [
+        {
+          "title": "Step into luxury living",
+          "client": "Sri Sai Soukya",
+          "image": "images/works/outdoor-01.jpg",
+          "original": "images/works/outdoor-01-flat.jpg"
+        },
+        {
+          "title": "3 acres, 185 flats",
+          "client": "Sri Sai Soukya",
+          "image": "images/works/outdoor-02.jpg",
+          "original": "images/works/outdoor-02-flat.jpg"
+        },
+        {
+          "title": "Robotic knee surgery (Telugu)",
+          "client": "Sanjivi Hospitals",
+          "image": "images/works/outdoor-03.jpg",
+          "original": "images/works/outdoor-03-flat.jpg"
+        },
+        {
+          "title": "Mega furniture showroom",
+          "client": "Ramachandra Brothers",
+          "image": "images/works/outdoor-04.jpg",
+          "original": "images/works/outdoor-04-flat.jpg"
+        },
+        {
+          "title": "Robotic knee replacement (Telugu)",
+          "client": "Sanjivi Hospitals",
+          "image": "images/works/outdoor-05.jpg",
+          "original": "images/works/outdoor-05-flat.jpg"
+        }
+      ]
+    },
+    {
+      "id": "print",
+      "group": "print",
+      "title": "Newspaper Ads & Brochures",
+      "client": "Apollo Diagnostics, ITC, Tirupati Enterprises",
+      "description": "Press ads and brochures laid out for print, including Telugu newspaper insertions.",
+      "tools": "InDesign, Illustrator",
+      "year": "2020 – 2025",
+      "layout": "grid",
+      "fit": false,
+      "items": [
+        {
+          "title": "Tender sale & Women's Day",
+          "client": "ITC · Omega Hospitals",
+          "image": "images/works/print-01.jpg"
+        },
+        {
+          "title": "Celebration ad",
+          "client": "Telugu newspaper",
+          "image": "images/works/print-02.jpg"
+        },
+        {
+          "title": "Price match",
+          "client": "Tirupati Enterprises",
+          "image": "images/works/print-03.jpg"
+        },
+        {
+          "title": "Newborn screening",
+          "client": "Apollo Diagnostics",
+          "image": "images/works/print-04.jpg"
+        },
+        {
+          "title": "Health deserves a closer view",
+          "client": "Apollo Diagnostics",
+          "image": "images/works/print-05.jpg"
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "group": "digital",
+      "title": "YouTube Thumbnails & Web Banners",
+      "client": "BMS Wellnest BPL, web clients",
+      "description": "Match-day thumbnails for the BMS Premier League cricket series and website banners for schools and services.",
+      "tools": "Photoshop",
+      "year": "2021 – 2023",
+      "layout": "grid",
+      "fit": false,
+      "items": [
+        {
+          "title": "Friendly Cricket League",
+          "client": "BMS Wellnest · YouTube",
+          "image": "images/works/youtube-01.jpg"
+        },
+        {
+          "title": "Sponsor Trophy",
+          "client": "BMS Wellnest · YouTube",
+          "image": "images/works/youtube-02.jpg"
+        },
+        {
+          "title": "BPL Finals",
+          "client": "BMS Wellnest · YouTube",
+          "image": "images/works/youtube-03.jpg"
+        },
+        {
+          "title": "BPL Quarterfinals",
+          "client": "BMS Wellnest · YouTube",
+          "image": "images/works/youtube-04.jpg"
+        },
+        {
+          "title": "Get a few inches taller",
+          "client": "Height Increase Coach",
+          "image": "images/works/youtube-05.jpg"
+        },
+        {
+          "title": "16 years of experience",
+          "client": "Flameproof equipment",
+          "image": "images/works/youtube-06.jpg"
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "group": "motion",
+      "title": "Motion Graphics & Videos",
+      "client": "Reels, ads and animated posts",
+      "description": "Animated social posts, reels and video edits made in After Effects and Premiere Pro.",
+      "tools": "After Effects, Premiere Pro",
+      "year": "2020 – 2025",
+      "layout": "grid",
+      "fit": false,
+      "items": []
+    }
+  ]
+}

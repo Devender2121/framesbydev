@@ -1,0 +1,212 @@
+{
+  "hero": {
+    "tag": "Sr. Graphic & Motion Designer · Open to work",
+    "greeting": "Hi, I'm",
+    "name": "Devender Babu",
+    "lead": "I design social media campaigns, hoardings, newspaper ads and logos that help hospitals, auto dealers, schools and real-estate brands get noticed.",
+    "bubble": "Drag me to spin!"
+  },
+  "character": [
+    "images/character/angle-000.webp",
+    "images/character/angle-045.webp",
+    "images/character/angle-090.webp",
+    "images/character/angle-135.webp",
+    "images/character/angle-180.webp",
+    "images/character/angle-225.webp",
+    "images/character/angle-270.webp",
+    "images/character/angle-315.webp"
+  ],
+  "about": {
+    "heading": "Get to know me!",
+    "text": "I'm a Hyderabad designer with eight years in agencies and in-house teams. I work in Telugu and English, and I handle everything from a single festival post to a full hoarding campaign, plus motion and 3D mockups.",
+    "name": "Devender Babu Perla",
+    "role": "Sr. Graphic Designer, ResoMax Technologies",
+    "location": "Hyderabad, Telangana",
+    "email": "devenderbabu9@gmail.com",
+    "languages": "Telugu, Hindi, English"
+  },
+  "stats": [
+    {
+      "value": "8+",
+      "label": "Years of experience",
+      "icon": "🗂️"
+    },
+    {
+      "value": "6",
+      "label": "Companies worked with",
+      "icon": "🏢"
+    },
+    {
+      "value": "auto",
+      "label": "Designs in this portfolio",
+      "icon": "🎨"
+    },
+    {
+      "value": "12",
+      "label": "Design tools",
+      "icon": "🛠️"
+    }
+  ],
+  "tools": [
+    {
+      "short": "Ps",
+      "name": "Photoshop",
+      "bg": "#001E36",
+      "fg": "#31A8FF"
+    },
+    {
+      "short": "Ai",
+      "name": "Illustrator",
+      "bg": "#330000",
+      "fg": "#FF9A00"
+    },
+    {
+      "short": "Id",
+      "name": "InDesign",
+      "bg": "#49021F",
+      "fg": "#FF3366"
+    },
+    {
+      "short": "Ae",
+      "name": "After Effects",
+      "bg": "#00005B",
+      "fg": "#9999FF"
+    },
+    {
+      "short": "Pr",
+      "name": "Premiere Pro",
+      "bg": "#00005B",
+      "fg": "#EA77FF"
+    },
+    {
+      "short": "Lr",
+      "name": "Lightroom",
+      "bg": "#001E36",
+      "fg": "#74B9FF"
+    },
+    {
+      "short": "Cd",
+      "name": "CorelDRAW",
+      "bg": "#E8F7EC",
+      "fg": "#1B9E4B"
+    },
+    {
+      "short": "Fg",
+      "name": "Figma",
+      "bg": "#F2EEFF",
+      "fg": "#7C3AED"
+    },
+    {
+      "short": "Bl",
+      "name": "Blender",
+      "bg": "#FFF0E4",
+      "fg": "#E87D0D"
+    },
+    {
+      "short": "C4",
+      "name": "Cinema 4D",
+      "bg": "#E6EEFF",
+      "fg": "#2557D6"
+    },
+    {
+      "short": "3ds",
+      "name": "3ds Max",
+      "bg": "#E3F7F0",
+      "fg": "#0E9F6E"
+    },
+    {
+      "short": "Cv",
+      "name": "Canva",
+      "bg": "#E6F6FF",
+      "fg": "#00A3E0"
+    }
+  ],
+  "achievements": [
+    {
+      "icon": "🏆",
+      "title": "Best Employee of the Year 2022",
+      "text": "Awarded by BMS Wellnest"
+    },
+    {
+      "icon": "🏥",
+      "title": "Healthcare campaign specialist",
+      "text": "Sanjivi, Krishna, Apollo, Vignata, AHRAR"
+    },
+    {
+      "icon": "🚗",
+      "title": "Automotive dealer ads",
+      "text": "Tata Motors, Toyota and Honda dealers"
+    },
+    {
+      "icon": "🗞️",
+      "title": "Bilingual print work",
+      "text": "Newspaper ads and hoardings in Telugu and English"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Graphic Designer",
+      "company": "ResoMax Technologies",
+      "dates": "Jul 2026 – Present",
+      "current": true
+    },
+    {
+      "role": "Senior Graphic Designer",
+      "company": "Vimta Labs Limited",
+      "dates": "May 2025 – 2026",
+      "current": false
+    },
+    {
+      "role": "Senior Graphic Designer",
+      "company": "Vantage Re.Public Advertising",
+      "dates": "Jul 2023 – Apr 2025",
+      "current": false
+    },
+    {
+      "role": "Senior Graphic Designer",
+      "company": "BMS Wellnest",
+      "dates": "Apr 2020 – Jul 2023",
+      "current": false
+    },
+    {
+      "role": "Graphic Designer",
+      "company": "Pragathi Media Solutions",
+      "dates": "Sep 2019 – Mar 2020",
+      "current": false
+    },
+    {
+      "role": "Jr. Graphic Designer",
+      "company": "Mittal Packaging Pvt Ltd",
+      "dates": "Mar 2018 – Sep 2019",
+      "current": false
+    }
+  ],
+  "brand_names": [
+    "Sanjivi Hospitals",
+    "Krishna Hospitals",
+    "Apollo Diagnostics",
+    "Vignata Fertility & IVF",
+    "Tata Motors",
+    "Toyota",
+    "Borra Honda",
+    "ITC",
+    "BMS Wellnest",
+    "Omega Hospitals",
+    "Acharya",
+    "Kiran International School",
+    "Harihara Estates",
+    "Ramachandra Brothers",
+    "CWS One",
+    "Vimta Labs"
+  ],
+  "contact": {
+    "heading": "Have a project in mind?",
+    "sub": "Let's build something great together.",
+    "email": "devenderbabu9@gmail.com",
+    "phone": "+91 63014 75841",
+    "whatsapp": "916301475841",
+    "location": "Hyderabad, Telangana, India",
+    "behance": "https://www.behance.net/FramesbyDev"
+  },
+  "footer": "© 2026 Devender Babu Perla · Frames by Dev"
+}

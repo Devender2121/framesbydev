@@ -1,0 +1,188 @@
+# Frames by Dev — admin settings
+# STEP: change GITHUB-USERNAME below to your GitHub username (keep the /framesbydev part).
+backend:
+  name: github
+  repo: GITHUB-USERNAME/framesbydev
+  branch: main
+
+site_url: https://framesbydev.netlify.app
+display_url: https://framesbydev.netlify.app
+logo_url: images/character/angle-000.webp
+
+media_folder: images/uploads
+public_folder: images/uploads
+
+collections:
+  # ---------------- Website text ----------------
+  - name: settings
+    label: "Website text"
+    files:
+      - name: site
+        label: "Home page text, about, contact"
+        file: content/site.json
+        format: json
+        fields:
+          - label: "Hero (top section)"
+            name: hero
+            widget: object
+            fields:
+              - { label: "Small tag above name", name: tag, widget: string }
+              - { label: "Greeting", name: greeting, widget: string, hint: "Example: Hi, I'm" }
+              - { label: "Name", name: name, widget: string }
+              - { label: "Intro line", name: lead, widget: text }
+              - { label: "Speech bubble", name: bubble, widget: string }
+          - label: "3D character angles (0°, 45° … 315°)"
+            name: character
+            widget: list
+            hint: "8 images, front view first, then turning left. The first image is also used in About."
+            field: { label: "Angle image", name: image, widget: image }
+          - label: "About me"
+            name: about
+            widget: object
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Bio", name: text, widget: text }
+              - { label: "Name", name: name, widget: string }
+              - { label: "Role", name: role, widget: string }
+              - { label: "Location", name: location, widget: string }
+              - { label: "Email", name: email, widget: string }
+              - { label: "Languages", name: languages, widget: string }
+          - label: "Stat boxes (4)"
+            name: stats
+            widget: list
+            max: 4
+            fields:
+              - { label: "Number", name: value, widget: string, hint: "Type auto to count your designs automatically" }
+              - { label: "Label", name: label, widget: string }
+              - { label: "Emoji", name: icon, widget: string, required: false }
+          - label: "Tools"
+            name: tools
+            widget: list
+            fields:
+              - { label: "Short letters", name: short, widget: string, hint: "Example: Ps" }
+              - { label: "Tool name", name: name, widget: string }
+              - { label: "Box colour", name: bg, widget: color }
+              - { label: "Letter colour", name: fg, widget: color }
+          - label: "Achievements"
+            name: achievements
+            widget: list
+            fields:
+              - { label: "Emoji", name: icon, widget: string }
+              - { label: "Title", name: title, widget: string }
+              - { label: "Details", name: text, widget: string }
+          - label: "Experience (newest first)"
+            name: experience
+            widget: list
+            fields:
+              - { label: "Role", name: role, widget: string }
+              - { label: "Company", name: company, widget: string }
+              - { label: "Dates", name: dates, widget: string, hint: "Example: Jul 2026 – Present" }
+              - { label: "Current job", name: current, widget: boolean, default: false }
+          - label: "Brand names (scrolling strip)"
+            name: brand_names
+            widget: list
+            field: { label: "Brand", name: brand, widget: string }
+          - label: "Contact"
+            name: contact
+            widget: object
+            fields:
+              - { label: "Heading", name: heading, widget: string }
+              - { label: "Sub line", name: sub, widget: string }
+              - { label: "Email", name: email, widget: string }
+              - { label: "Phone (as shown)", name: phone, widget: string }
+              - { label: "WhatsApp number (digits with country code)", name: whatsapp, widget: string, hint: "Example: 916301475841" }
+              - { label: "Location", name: location, widget: string }
+              - { label: "Behance link", name: behance, widget: string }
+          - { label: "Footer text", name: footer, widget: string }
+
+  # ---------------- Projects ----------------
+  - name: work
+    label: "Projects"
+    files:
+      - name: projects
+        label: "Projects & designs"
+        file: content/projects.json
+        format: json
+        fields:
+          - label: "Projects"
+            name: projects
+            widget: list
+            summary: "{{fields.title}}"
+            hint: "Drag to reorder. A project with no designs is hidden on the site."
+            fields:
+              - { label: "Short id (no spaces)", name: id, widget: string, hint: "Example: health" }
+              - label: "Category filter"
+                name: group
+                widget: select
+                options:
+                  - { label: "Social media", value: social }
+                  - { label: "Branding & illustration", value: brand }
+                  - { label: "Print & outdoor", value: print }
+                  - { label: "Digital", value: digital }
+                  - { label: "Motion & video", value: motion }
+              - { label: "Project title", name: title, widget: string }
+              - { label: "Clients", name: client, widget: string }
+              - { label: "Description", name: description, widget: text }
+              - { label: "Tools", name: tools, widget: string }
+              - { label: "Year", name: year, widget: string }
+              - label: "Project page style"
+                name: layout
+                widget: select
+                default: grid
+                options:
+                  - { label: "Design grid", value: grid }
+                  - { label: "LogoFolio brand cards (uses Brands)", value: brands }
+                  - { label: "360° spinning characters", value: spin }
+              - { label: "Show whole image (logos, characters)", name: fit, widget: boolean, default: false }
+              - label: "Designs"
+                name: items
+                widget: list
+                required: false
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Image (cover / mockup)", name: image, widget: image }
+                  - { label: "Title", name: title, widget: string }
+                  - { label: "Client", name: client, widget: string, required: false }
+                  - { label: "Flat original (optional, shows an Original button)", name: original, widget: image, required: false }
+                  - { label: "Video MP4 (optional)", name: video, widget: file, required: false }
+
+  # ---------------- Brands ----------------
+  - name: logofolio
+    label: "LogoFolio brands"
+    files:
+      - name: brands
+        label: "Brand pages"
+        file: content/brands.json
+        format: json
+        fields:
+          - label: "Brands"
+            name: brands
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Brand name", name: name, widget: string }
+              - { label: "Industry", name: industry, widget: string }
+              - { label: "Tagline (used on the social post mockup)", name: headline, widget: string }
+              - { label: "Website shown on mockups", name: website, widget: string, required: false }
+              - { label: "Logo (transparent PNG)", name: logo, widget: image }
+              - { label: "White logo (optional)", name: logo_white, widget: image, required: false }
+              - { label: "Primary colour", name: primary, widget: color }
+              - { label: "Dark colour", name: dark, widget: color }
+              - { label: "Accent colour", name: accent, widget: color }
+              - { label: "Light tint colour", name: tint, widget: color }
+              - label: "Mockups to show"
+                name: mockups
+                widget: select
+                multiple: true
+                options:
+                  - { label: "Business cards", value: card }
+                  - { label: "Letterhead", value: letter }
+                  - { label: "Envelope", value: envelope }
+                  - { label: "Shop signboard", value: sign }
+                  - { label: "Social media post", value: post }
+                  - { label: "ID card", value: id }
+                  - { label: "Team jersey", value: tee }
+                  - { label: "Takeaway cup", value: cup }
+                  - { label: "Shopping bag", value: bag }
+                  - { label: "Gift box", value: box }
+                  - { label: "Product label", value: bottle }
