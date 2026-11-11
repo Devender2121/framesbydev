@@ -2,7 +2,7 @@
 # STEP: change GITHUB-USERNAME below to your GitHub username (keep the /framesbydev part).
 backend:
   name: github
-  repo: GITHUB-USERNAME/framesbydev
+  repo: Devender2121/framesbydev
   branch: main
 
 site_url: https://framesbydev.netlify.app
